@@ -1,0 +1,124 @@
+#btn13::before{
+    width: 80%;
+    height: 500%;
+    top: -300px;
+    left: -50%;
+    border: 1px solid white;
+}
+
+#btn13::after{
+    width: 80%;
+    height: 500%;
+    top: 100px;
+    left: 30%;
+}
+
+#btn13::before, #btn13::after{
+    transform: rotate(65deg);
+}
+
+#btn13:hover::before{
+    top: -145px;
+    left: -35%;
+}
+
+#btn13:hover::after{
+    top: -110px;
+    left: 20%;
+}
+
+#btn14::before{
+    width: 80%;
+    height: 500%;
+    top: -350%;
+    left: 100%;
+  
+}
+
+#btn14::after{
+    width: 80%;
+    height: 500%;
+    top: 0;
+    left: -100%;
+}
+
+#btn14::before, #btn14::after{
+    transform: rotate(125deg);
+}
+
+#btn14:hover::before{
+    top: -250%;
+    left: 0;
+}
+
+#btn14:hover::after{
+    top: -150%;
+    left: 20%;
+}
+
+#btn15{
+    background: $primaryColor3;
+}
+
+#btn15::before{
+    background: $primaryColor2;
+    width: 80%;
+    height: 500%;
+    top: -150px;
+    left: 0;
+}
+
+#btn15::after{
+    background: $primaryColor2;
+    width: 80%;
+    height: 500%;
+    top: -110px;
+    left: 20%;
+}
+
+#btn15::before, #btn15::after{
+    transform: rotate(75deg);
+}
+
+#btn15:hover::before{
+    top: -500%;
+    left: 0;
+}
+
+#btn15:hover::after{
+    top: 100%;
+}
+
+#btn16{
+    background: $primaryColor3;
+}
+
+#btn16::before{
+    background: $primaryColor2;
+    width: 80%;
+    height: 500%;
+    top: -150px;
+    left: 20%;
+  
+}
+
+#btn16::after{
+    background: $primaryColor2;
+    width: 80%;
+    height: 500%;
+    top: -110px;
+    left: 0;
+}
+
+#btn16::before, #btn16::after{
+    transform: rotate(103deg);
+}
+
+#btn16:hover::before{
+    top: -550%;
+}
+
+
+#btn16:hover::after{
+    top: 100%;
+}

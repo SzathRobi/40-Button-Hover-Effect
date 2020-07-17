@@ -1,0 +1,29 @@
+#btn25:hover{
+    border: 5px solid $primaryColor3;
+    color: $primaryColor3;
+}
+
+#btn26{
+    border: 5px solid $primaryColor1;
+}
+
+#btn26:hover{
+    border: 2px solid $primaryColor3;
+    color: $primaryColor3;
+}
+
+#btn27:hover{
+    border: 2px solid $primaryColor3;
+    color: $primaryColor3;
+    border-radius: 12px;
+}
+
+#btn28{
+    border-radius: 12px;
+}
+
+#btn28:hover{
+    border: 2px solid $primaryColor3;
+    color: $primaryColor3;
+    border-radius: 0;
+}

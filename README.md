@@ -1,0 +1,1 @@
+40 button hover effects with CSS transitions, animation keyframes and pseudo elements. It was a nice practise!

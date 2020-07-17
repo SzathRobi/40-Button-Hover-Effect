@@ -1,0 +1,19 @@
+#btn17:hover{
+    transform: scale(1.2);
+    background: $primaryColor3;
+ }
+ 
+ #btn18:hover{
+     transform: scale(0.8);
+     background: $primaryColor3;
+  }
+ 
+  #btn19:hover{
+     transform: skewX(20deg);
+     background: $primaryColor3;
+  }
+ 
+  #btn20:hover{
+     transform: skewY(20deg);
+     background: $primaryColor3;
+  }

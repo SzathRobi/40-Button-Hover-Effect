@@ -1,0 +1,50 @@
+#btn37:hover{
+    box-shadow: 0 0 30px $primaryColor3;
+    border: 2px solid $primaryColor3;
+    color: $primaryColor3
+}
+
+#btn38:hover{
+    box-shadow: 5px 5px 5px #000, -2px -2px 5px $primaryColor3;
+}
+
+#btn39{
+    border: 3px solid $primaryColor1;
+    overflow: visible;
+}
+
+#btn39::before, #btn39::after{
+    width: 10px;
+    height: 3px;
+    background: $primaryColor2;
+    transform: skew(45deg);
+    transition: 600ms;
+}
+
+#btn39::before{
+    top: -3px;
+    left: 10%;
+}
+
+#btn39::after{
+    bottom: -3px;
+    right: 10%;
+}
+
+#btn39:hover::before{
+    left: 80%;
+}
+
+#btn39:hover::after{
+    right: 80%;
+}
+
+#btn40{
+    transition: 400ms;
+    background-size: 600%;
+    background-image: linear-gradient(to left, $primaryColor2, $primaryColor3, $primaryColor2);
+}
+
+#btn40:hover{
+    background-position: right;
+}

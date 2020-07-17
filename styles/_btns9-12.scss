@@ -1,0 +1,99 @@
+#btn9::before{
+    width: 51%;
+    height: 100%;
+    top: 0;
+    left: -51%;
+}
+
+#btn9::after{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+}
+
+#btn9:hover::before{
+    left: 0;
+}
+
+#btn9:hover::after{
+    left: 50%;
+}
+
+#btn10::before{
+    width: 100%;
+    height: 50%;
+    top: -50%;
+    left: 0;
+}
+
+#btn10::after{
+    width: 100%;
+    height: 50%;
+    top: 100%;
+    left: 0;
+}
+
+#btn10:hover::before{
+    top: 0;
+}
+
+#btn10:hover::after{
+    top: 50%;
+}
+
+#btn11{
+    background: $primaryColor3;
+}
+
+#btn11::before{
+    width: 51%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $primaryColor2;
+}
+
+#btn11::after{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: $primaryColor2;
+}
+
+#btn11:hover::before{
+    left: -51%;
+}
+
+#btn11:hover::after{
+    left: 100%;
+}
+
+#btn12{
+    background: $primaryColor3;
+}
+
+#btn12::before{
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: $primaryColor2;
+}
+
+#btn12::after{
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    left: 0;
+    background: $primaryColor2;
+}
+
+#btn12:hover::before{
+    top: -50%;
+}
+
+#btn12:hover::after{
+    top: 100%;
+}

@@ -1,0 +1,47 @@
+#btn5::before{
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    top: 100%;
+}
+
+#btn5:hover::before{
+    top: 0;
+    left: 0;
+}
+
+#btn6::before{
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    top: -100%;
+}
+
+#btn6:hover::before{
+    top: 0;
+    left: 0;
+}
+
+#btn7::before{
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    top: -100%;
+}
+
+#btn7:hover::before{
+    top: 0;
+    left: 0;
+}
+
+#btn8::before{
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    top: 100%;
+}
+
+#btn8:hover::before{
+    top: 0;
+    left: 0;
+}
